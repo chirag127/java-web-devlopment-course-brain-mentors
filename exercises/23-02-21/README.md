@@ -69,10 +69,10 @@ To run the age calculator program, navigate to the `exercises/23-02-21/4` direct
 $ javac AgeCalculator.java
 ```
 
-Then, run the program using the `java` command, passing the date of birth in the format `MM/dd/yyyy` as a command-line argument. For example, to calculate the age of someone born on June 12, 1990, you would run the following command:
+Then, run the program using the `java` command, passing the date of birth in the format `dd/MM/yyyy` as a command-line argument. For example, to calculate the age of someone born on June 12, 1990, you would run the following command:
 
 ```java
-$ java AgeCalculator 06/12/1990
+$ java AgeCalculator 12/06/1990
 ```
 
 This would output the person's age in years.
